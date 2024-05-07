@@ -1,7 +1,6 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ethers": "^6.11.1"
-  }
+    "ethers": "^6.11.1",
+    "truffle": "^5.11.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuklapalak/blockchain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shuklapalak/blockchain/issues"
+  },
+  "homepage": "https://github.com/shuklapalak/blockchain#readme",
+  "description": ""
 }

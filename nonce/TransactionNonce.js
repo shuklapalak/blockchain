@@ -23,7 +23,7 @@ class TransactionNonce {
   }
 
   // Method to handle failed transaction
-  failedTransaction(nonce) {
+  failedTxn(nonce) {
     // nonce back to heap array if failed
     this.heapArray.push(nonce);
     console.log(nonce, "txn failed");
